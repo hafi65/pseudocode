@@ -1,0 +1,34 @@
+body {
+background-color: aliceblue;
+font-size: larger;
+}
+li:first-child {
+    color: brown;
+}
+li:last-child {
+color: cadetblue;
+}
+li:nth-child(2) {
+    color: hotpink;
+}
+p:nth-of-type(2) {
+    color: cornflowerblue;
+ }
+p:nth-of-type(4) { 
+color: darkmagenta;
+}
+p:not(:first-of-type) {
+ text-decoration: underline;
+}
+p::after {
+    content:" 🚀";
+}
+
+
+
+
+
+
+
+
+
